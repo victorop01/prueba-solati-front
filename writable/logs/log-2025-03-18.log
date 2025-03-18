@@ -1,0 +1,184 @@
+CRITICAL - 2025-03-18 02:55:16 --> CodeIgniter\HTTP\Exceptions\HTTPException: CURL must be enabled to use the CURLRequest class.
+[Method: POST, Route: auth]
+in SYSTEMPATH/HTTP/CURLRequest.php on line 116.
+ 1 SYSTEMPATH/HTTP/CURLRequest.php(116): CodeIgniter\HTTP\Exceptions\HTTPException::forMissingCurl()
+ 2 SYSTEMPATH/Config/Services.php(212): CodeIgniter\HTTP\CURLRequest->__construct()
+ 3 SYSTEMPATH/Config/BaseService.php(312): CodeIgniter\Config\Services::curlrequest()
+ 4 SYSTEMPATH/Config/BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic()
+ 5 SYSTEMPATH/Config/Services.php(206): CodeIgniter\Config\BaseService::getSharedInstance()
+ 6 SYSTEMPATH/Config/BaseService.php(321): CodeIgniter\Config\Services::curlrequest()
+ 7 APPPATH/Controllers/Home.php(50): CodeIgniter\Config\BaseService::__callStatic()
+ 8 APPPATH/Controllers/Home.php(35): App\Controllers\Home->sendPostRequest()
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->authenticate()
+10 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+12 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-03-18 02:55:31 --> CodeIgniter\HTTP\Exceptions\HTTPException: CURL must be enabled to use the CURLRequest class.
+[Method: POST, Route: auth]
+in SYSTEMPATH/HTTP/CURLRequest.php on line 116.
+ 1 SYSTEMPATH/HTTP/CURLRequest.php(116): CodeIgniter\HTTP\Exceptions\HTTPException::forMissingCurl()
+ 2 SYSTEMPATH/Config/Services.php(212): CodeIgniter\HTTP\CURLRequest->__construct()
+ 3 SYSTEMPATH/Config/BaseService.php(312): CodeIgniter\Config\Services::curlrequest()
+ 4 SYSTEMPATH/Config/BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic()
+ 5 SYSTEMPATH/Config/Services.php(206): CodeIgniter\Config\BaseService::getSharedInstance()
+ 6 SYSTEMPATH/Config/BaseService.php(321): CodeIgniter\Config\Services::curlrequest()
+ 7 APPPATH/Controllers/Home.php(50): CodeIgniter\Config\BaseService::__callStatic()
+ 8 APPPATH/Controllers/Home.php(35): App\Controllers\Home->sendPostRequest()
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->authenticate()
+10 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+12 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-03-18 02:56:15 --> CodeIgniter\HTTP\Exceptions\HTTPException: CURL must be enabled to use the CURLRequest class.
+[Method: POST, Route: auth]
+in SYSTEMPATH/HTTP/CURLRequest.php on line 116.
+ 1 SYSTEMPATH/HTTP/CURLRequest.php(116): CodeIgniter\HTTP\Exceptions\HTTPException::forMissingCurl()
+ 2 SYSTEMPATH/Config/Services.php(212): CodeIgniter\HTTP\CURLRequest->__construct()
+ 3 SYSTEMPATH/Config/BaseService.php(312): CodeIgniter\Config\Services::curlrequest()
+ 4 SYSTEMPATH/Config/BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic()
+ 5 SYSTEMPATH/Config/Services.php(206): CodeIgniter\Config\BaseService::getSharedInstance()
+ 6 SYSTEMPATH/Config/BaseService.php(321): CodeIgniter\Config\Services::curlrequest()
+ 7 APPPATH/Controllers/Home.php(50): CodeIgniter\Config\BaseService::__callStatic()
+ 8 APPPATH/Controllers/Home.php(35): App\Controllers\Home->sendPostRequest()
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->authenticate()
+10 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+12 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ERROR - 2025-03-18 02:57:43 --> Error en cURL: CURL must be enabled to use the CURLRequest class.
+CRITICAL - 2025-03-18 02:57:43 --> ErrorException: Trying to access array offset on null
+[Method: POST, Route: auth]
+in APPPATH/Controllers/Home.php on line 38.
+ 1 APPPATH/Controllers/Home.php(38): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->authenticate()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ERROR - 2025-03-18 03:00:01 --> Error en cURL: CURL must be enabled to use the CURLRequest class.
+CRITICAL - 2025-03-18 03:00:01 --> ErrorException: Trying to access array offset on null
+[Method: POST, Route: auth]
+in APPPATH/Controllers/Home.php on line 41.
+ 1 APPPATH/Controllers/Home.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->authenticate()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ERROR - 2025-03-18 03:01:10 --> Error en cURL: CURL must be enabled to use the CURLRequest class.
+CRITICAL - 2025-03-18 03:01:10 --> ErrorException: Trying to access array offset on null
+[Method: POST, Route: auth]
+in APPPATH/Controllers/Home.php on line 41.
+ 1 APPPATH/Controllers/Home.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->authenticate()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-03-18 03:03:46 --> ErrorException: Undefined array key "status"
+[Method: POST, Route: auth]
+in APPPATH/Controllers/Home.php on line 41.
+ 1 APPPATH/Controllers/Home.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->authenticate()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-03-18 03:06:33 --> Error: Call to a member function request() on null
+[Method: POST, Route: auth]
+in APPPATH/Controllers/Home.php on line 64.
+ 1 APPPATH/Controllers/Home.php(37): App\Controllers\Home->sendPostRequest()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->authenticate()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-03-18 03:11:43 --> Error: Call to a member function request() on null
+[Method: POST, Route: auth]
+in APPPATH/Controllers/Home.php on line 71.
+ 1 APPPATH/Controllers/Home.php(37): App\Controllers\Home->sendPostRequest()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->authenticate()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-03-18 03:12:39 --> Error: Call to a member function request() on null
+[Method: POST, Route: auth]
+in APPPATH/Controllers/Home.php on line 73.
+ 1 APPPATH/Controllers/Home.php(39): App\Controllers\Home->sendPostRequest()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->authenticate()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-03-18 03:13:36 --> Error: Call to a member function request() on null
+[Method: POST, Route: auth]
+in APPPATH/Controllers/Home.php on line 73.
+ 1 APPPATH/Controllers/Home.php(39): App\Controllers\Home->sendPostRequest()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->authenticate()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-03-18 03:15:23 --> Error: Call to a member function request() on null
+[Method: POST, Route: auth]
+in APPPATH/Controllers/Home.php on line 73.
+ 1 APPPATH/Controllers/Home.php(39): App\Controllers\Home->sendPostRequest()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->authenticate()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-03-18 03:19:33 --> Error: Call to a member function request() on null
+[Method: POST, Route: auth]
+in APPPATH/Controllers/Home.php on line 76.
+ 1 APPPATH/Controllers/Home.php(41): App\Controllers\Home->sendPostRequest()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->authenticate()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-03-18 03:25:47 --> Error: Access to undeclared static property Config\Services::$httpClient
+[Method: POST, Route: auth]
+in APPPATH/Config/Services.php on line 36.
+ 1 APPPATH/Controllers/Home.php(73): Config\Services::httpClient()
+ 2 APPPATH/Controllers/Home.php(41): App\Controllers\Home->sendPostRequest()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->authenticate()
+ 4 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ERROR - 2025-03-18 03:27:39 --> Error en HTTP Client: 22 : The requested URL returned error: 404
+ERROR - 2025-03-18 03:27:39 --> Error al conectar o respuesta inválida del servidor de autenticación
+ERROR - 2025-03-18 03:29:12 --> Error en HTTP Client: 22 : The requested URL returned error: 404
+ERROR - 2025-03-18 03:29:12 --> Error al conectar o respuesta inválida del servidor de autenticación
+ERROR - 2025-03-18 03:29:20 --> Error en HTTP Client: 22 : The requested URL returned error: 404
+ERROR - 2025-03-18 03:29:20 --> Error al conectar o respuesta inválida del servidor de autenticación
+CRITICAL - 2025-03-18 03:45:24 --> Error: Class "App\Services\JWTService" not found
+[Method: GET, Route: listtask]
+in APPPATH/Controllers/TaskController.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\TaskController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ERROR - 2025-03-18 04:37:51 --> Error en HTTP Client: 22 : The requested URL returned error: 404
+ERROR - 2025-03-18 04:37:51 --> Error al conectar o respuesta inválida del servidor de autenticación
+ERROR - 2025-03-18 05:56:37 --> Error en HTTP Client: 22 : The requested URL returned error: 404
+ERROR - 2025-03-18 05:56:37 --> Error al conectar o respuesta inválida del servidor de autenticación
